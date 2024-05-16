@@ -3,6 +3,7 @@
 
 /* Color Variables */
 :root {
+  --red:#cf142b;
   --white: #fff;
   --black: #0a58ca;
   --green: #20c997;
@@ -1386,15 +1387,28 @@ th:last-child {
 
 .login-form form .buttons {
   margin-top: 1rem;
+  justify-content: space-between;
 }
 
-.login-form form button {
+.login-form form .cancelbtn {
   outline: none;
   border: none;
   font-size: 1.6rem;
   padding: 1rem 3rem;
   margin-right: 1.5rem;
-  background-color: var(--green);
+  background-color: #cf142b;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+.login-form form .signupbtn {
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  margin-right: 1.5rem;
+  background-color:var(--green);
+  border-radius: 0.5rem;
   color: white;
   cursor: pointer;
 }
