@@ -1416,3 +1416,7 @@ th:last-child {
 .login-form form p a {
   color: dodgerblue;
 }
+
+.detail{
+  text-align: justify;
+}
