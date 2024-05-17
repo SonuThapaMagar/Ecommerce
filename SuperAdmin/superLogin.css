@@ -24,13 +24,16 @@ input {
     height: 100vh; /* Change min-height to height */
     margin-top: 10%;
     background-color: #fff;
-    /* background-image: url('bg.jpeg'); Add your image URL here */
     background-size:contain; /* Adjust background size */
     background-position: center; /* Adjust background position */
     background-attachment: fixed; /* Prevent scrolling */
 }
-
-  
+/* .logo{
+    align-items: center;
+    width:13%;
+    height: auto;
+}
+   */
 
 .forms-container {
   position: absolute;
