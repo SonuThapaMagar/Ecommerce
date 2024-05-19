@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
 }
 .sidebar{
   position: fixed;
@@ -150,16 +151,10 @@ nav .search-box .bx-search{
   align-items: center;
   background: #F5F6FA;
   border: 2px solid #EFEEF1;
-  border-radius: 6px;
+  border-radius: 0rem;
   height: 50px;
   min-width: 190px;
   padding: 0 15px 0 2px;
-}
-nav .profile-details img{
-  height: 40px;
-  width: 40px;
-  border-radius: 6px;
-  object-fit: cover;
 }
 nav .profile-details .admin_name{
   font-size: 15px;
@@ -167,6 +162,9 @@ nav .profile-details .admin_name{
   color: #333;
   margin: 0 10px;
   white-space: nowrap;
+}
+nav .profile-details a{
+  text-decoration: none;
 }
 nav .profile-details i{
   font-size: 25px;
