@@ -145,6 +145,21 @@ nav .search-box .bx-search{
   font-size: 22px;
   transition: all 0.4 ease;
 }
+nav .add_product .bx-add-to-queue{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #2697FF;
+  right: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  transition: all 0.4 ease;
+}
 .home-section nav .profile-details{
   display: flex;
   align-items: center;
