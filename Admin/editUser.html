@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Admin Dashboard</title>
+    <title>Edit User Details</title>
     <link rel="stylesheet" href="/css/user.css">
     <link rel="stylesheet" href="css/adminDash.css">
+    <link rel="stylesheet" href="css/addProduct.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a href="superDash.html" class="active">
+                <a href="adminDash.html" class="active">
                     <i class='bx bx-grid-alt'></i>
                     <span class="links_name">Dashboard</span>
                 </a>
@@ -55,61 +56,38 @@
         <nav>
             <div class="sidebar-button">
                 <i class='bx bx-menu sidebarBtn'></i>
-                <span class="dashboard">Dashboard</span>
-            </div>
-            <div class="search-box">
-                <input type="text" placeholder="Search...">
-                <i class='bx bx-search'></i>
+                <span class="dashboard">Product Details</span>
             </div>
         </nav>
 
         <div class="home-content">
             <div class="recent-sales-box">
 
-                <table class="styled-table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Contact</th>
-                            <th>Address</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Dom</td>
-                            <td>dom@gmail.com</td>
-                            <td>+976254247362</td>
-                            <td>Lalitpur</td>
-                            <td>
-                                <a href="editUser.html"><button class="edit">Edit</button>
-                                </a>
-                            </td>
+                <section class="container">
+                    <header>Edit User Details</header>
+                    <form action="#" class="form">
+                        <div class="input-box">
+                            <label>Name</label>
+                            <input type="text" placeholder="Name" required />
+                        </div>
+                        <div class="input-box">
+                            <label>Email</label>
+                            <input type="email" placeholder="Email" required />
+                        </div>
+                        <div class="column">
+                            <div class="input-box">
+                                <label>Contact</label>
+                                <input type="number" placeholder="Number" required />
+                            </div>
+                            <div class="input-box">
+                                <label>Address</label>
+                                <input type="text" placeholder="Address" required />
+                            </div>
+                        </div>
+                                                <button class="add">Save</button>
+                    </form>
+                </section>
 
-                            <td><button class="delete">
-                                    Delete
-                                </button></td>
-
-                        </tr>
-                        <tr>
-                            <td>Melissa</td>
-                            <td>Melissa@gmail.com</td>
-                            <td>+976254247362</td>
-                            <td>Lalitpur</td>
-                            <td>
-                                <a href="editUser.html"><button class="edit">Edit</button>
-                                </a>
-                            </td>
-
-                            <td><button class="delete">
-                                    Delete
-                                </button></td>
-
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
     </section>
