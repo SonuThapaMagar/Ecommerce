@@ -61,6 +61,7 @@
                 <input type="text" placeholder="Search...">
                 <i class='bx bx-search'></i>
             </div>
+
             <div class="add_product">
                 <a href="addProduct.html" style="text-decoration: none;">
                     <i class='bx bx-add-to-queue'></i>
@@ -72,7 +73,14 @@
 
         <div class="home-content">
             <div class="recent-sales-box">
-
+                <div class="dropdown">
+                    <button class="dropbtn">Filter BY</button>
+                    <div class="dropdown-content">
+                        <a href="#">Product Name</a>
+                        <a href="#">Product Category</a>
+                        <a href="#">Price</a>
+                    </div>
+                </div>
                 <table class="styled-table">
                     <thead>
                         <tr class="order_table">
@@ -104,8 +112,8 @@
                             <td>Rs 680</td>
                             <td>
                                 <a href="editProduct.html">
-                                <button class="edit">Edit</button>
-                            </a>
+                                    <button class="edit">Edit</button>
+                                </a>
                             </td>
                             <td>
                                 <button class="delete">Delete</button>
