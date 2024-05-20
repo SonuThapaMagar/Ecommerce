@@ -96,6 +96,11 @@
     height: 8vh;
     background-color: #0f52ba;
 }
+a{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
 .add {
   height: 55px;
   width: 30%;
