@@ -1402,6 +1402,17 @@ th:last-child {
   color: white;
   cursor: pointer;
 }
+.login-form form .signupbtn {
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  margin-right: 1.5rem;
+  background-color: #0a58ca;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
 .form-group input {
   width: 100%;
   padding: 0.8rem;
