@@ -37,6 +37,7 @@ body {
 a {
   text-decoration: none;
   color: var(--black);
+  font-size: 1.8rem;
 }
 
 li {
@@ -94,9 +95,10 @@ Navigation
 
 .nav-list {
   display: flex;
-    align-items: center; 
+  align-items: center; 
   gap: 1rem;
 }
+
 .nav-center {
   display: flex;
   width: 100%;
@@ -123,15 +125,17 @@ Navigation
 
 .nav-center .hamburger {
   display: none;
-    font-size: 2.3rem;
+  font-size: 2.3rem;
   color: var(--black);
   cursor: pointer;
 }
+
 .nav-list .icons {
   display: flex; 
   align-items: center; 
   gap: 1rem; 
 }
+
 .cart-container {
   position: relative;
 }
@@ -149,7 +153,6 @@ Navigation
 }
 
 /* Icons */
-
 .icon {
   cursor: pointer;
   font-size: 2.5rem;
@@ -172,6 +175,8 @@ Navigation
   font-size: 1.3rem;
   height: 2rem;
   width: 2rem;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -180,7 +185,7 @@ Navigation
     display: none;
     position: fixed;
     top: 12%;
-    left: -35rem;
+    right: -35rem;
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -193,15 +198,17 @@ Navigation
   }
 
   .nav-list.open {
+    font-size: 1.8rem;
     position: fixed;
-    top: 12%;
-    left: 0;
+    padding-left: 8px;
+    top: 10.5%;
+    right: 0;
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     background-color: white;
     height: 100%;
-    width: 100%;
+    width: 30%;
     max-width: 35rem;
     z-index: 100;
     transition: all 300ms ease-in-out;
