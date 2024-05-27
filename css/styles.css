@@ -92,8 +92,14 @@ Navigation
   line-height: 6rem;
 }
 
+.nav-list {
+  display: flex; 
+  align-items: center; 
+  gap: 1rem;
+}
 .nav-center {
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-list .icons {
