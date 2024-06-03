@@ -1,9 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
+background-image: url(./images/bg.avif); 
+   margin: 0;
     padding: 0;
-    background-color: #20c997;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .checkout-container {
@@ -20,14 +22,25 @@ body {
     padding: 20px;
     flex: 1;
     min-width: 300px;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0;
+    background-color:white;
+    color: black;
+    border-radius: 0.5rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    margin-right: 10px;
+    width: 40px;
 }
 
 h2 {
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 10px;
     margin-left: 2rem;
-
 }
 
 form {
@@ -40,6 +53,7 @@ form {
 label {
     margin-top: 10px;
     font-weight: bold;
+    color: black;
 }
 
 input, textarea {
@@ -58,23 +72,21 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
- 
 }
 
-table th{
-    background-color: #20c997;
+table th {
+    background-color: #2D0068; 
     color: white;
 }
+
 table th, table td {
-    border: 1px solid #20c997;
+    border: 1px solid #2D0068; 
     padding: 10px;
     text-align: left;
 }
 
-
-
 button {
-    background-color: #0a58ca;
+    background-color: #180033; 
     color: white;
     padding: 15px 20px;
     border: none;
@@ -84,12 +96,26 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2D0068; 
 }
 
 @media (max-width: 768px) {
     .checkout-container {
         flex-direction: column;
         margin: 50px 1rem 3rem 1rem;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header img {
+        margin: 0 0 10px 0;
+        width: 30px; 
+    }
+    .header h2 {
+        margin: 0;
+    }
+    form {
+        margin: 1rem;
     }
 }
