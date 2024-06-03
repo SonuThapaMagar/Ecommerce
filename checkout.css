@@ -18,7 +18,7 @@ background-image: url(./images/bg.avif);
     border-radius: 0.5rem;
 }
 
-.left-container, .right-container {
+.left-container {
     padding: 20px;
     flex: 1;
     min-width: 300px;
@@ -26,6 +26,16 @@ background-image: url(./images/bg.avif);
     background-color:white;
     color: black;
     border-radius: 0.5rem;
+}
+.right-container {
+background-color: #c40e00;
+color: white;
+padding: 20px;
+flex: 1;
+min-width: 300px;
+margin: 1rem ;
+border-radius: 0.5rem;
+
 }
 .header {
     display: flex;
@@ -72,31 +82,34 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 0.5rem;
+}
+table th{
+    background-color: #e9d7d3;
 }
 
-table th {
-    background-color: #2D0068; 
-    color: white;
-}
 
 table th, table td {
-    border: 1px solid #2D0068; 
+    border: 1px solid #e9d7d3; 
     padding: 10px;
     text-align: left;
 }
 
 button {
-    background-color: #180033; 
-    color: white;
+    background-color: #fff; 
+    color: black;
     padding: 15px 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #2D0068; 
+    background-color: #e9d7d3; 
 }
 
 @media (max-width: 768px) {
