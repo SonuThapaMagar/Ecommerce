@@ -74,7 +74,7 @@ table th, table td {
 
 
 button {
-    background-color: #20c997;
+    background-color: #0a58ca;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -90,5 +90,6 @@ button:hover {
 @media (max-width: 768px) {
     .checkout-container {
         flex-direction: column;
+        margin: 50px 1rem 3rem 1rem;
     }
 }
