@@ -5,10 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
   text-decoration: none;
-=======
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 }
 .sidebar{
   position: fixed;
@@ -154,24 +151,11 @@ nav .search-box .bx-search{
   align-items: center;
   background: #F5F6FA;
   border: 2px solid #EFEEF1;
-<<<<<<< HEAD
   border-radius: 0rem;
-=======
-  border-radius: 6px;
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
   height: 50px;
   min-width: 190px;
   padding: 0 15px 0 2px;
 }
-<<<<<<< HEAD
-=======
-nav .profile-details img{
-  height: 40px;
-  width: 40px;
-  border-radius: 6px;
-  object-fit: cover;
-}
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 nav .profile-details .admin_name{
   font-size: 15px;
   font-weight: 500;
@@ -179,12 +163,9 @@ nav .profile-details .admin_name{
   margin: 0 10px;
   white-space: nowrap;
 }
-<<<<<<< HEAD
 nav .profile-details a{
   text-decoration: none;
 }
-=======
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 nav .profile-details i{
   font-size: 25px;
   color: #333;

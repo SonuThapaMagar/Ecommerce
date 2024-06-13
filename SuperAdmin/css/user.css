@@ -3,12 +3,8 @@
   margin-left: 2rem;
 }
 .styled-table {
-<<<<<<< HEAD
   border-radius: 1rem;
   width: 95%;
-=======
-    width: 90%;
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -21,14 +17,6 @@
   color: #ffffff;
   text-align: left;
 }
-<<<<<<< HEAD
-=======
-.styled-table thead  .order_table{
-  background-color: #0f52ba;
-  color: #ffffff;
-  text-align: left;
-}
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 .styled-table th,
 .styled-table td {
   padding: 12px 15px;
@@ -45,14 +33,7 @@
 .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #43ba7f;
 }
-<<<<<<< HEAD
 
-=======
-.styled-table tbody tr.active-row {
-  font-weight: bold;
-  color: #43ba7f;
-}
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 .edit{
 
     color: white;

@@ -3,12 +3,7 @@
   margin-left: 2rem;
 }
 .styled-table {
-<<<<<<< HEAD
-  border-radius: 1rem;
-  width: 95%;
-=======
     width: 90%;
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -21,14 +16,11 @@
   color: #ffffff;
   text-align: left;
 }
-<<<<<<< HEAD
-=======
 .styled-table thead  .order_table{
   background-color: #0f52ba;
   color: #ffffff;
   text-align: left;
 }
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 .styled-table th,
 .styled-table td {
   padding: 12px 15px;
@@ -45,14 +37,10 @@
 .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #43ba7f;
 }
-<<<<<<< HEAD
-
-=======
 .styled-table tbody tr.active-row {
   font-weight: bold;
   color: #43ba7f;
 }
->>>>>>> 2ad53cea9add47b1bbf222c21378aca047f44427
 .edit{
 
     color: white;
@@ -73,4 +61,51 @@
     box-shadow:inset;
     width: 4rem;
     border-radius: 0.3rem;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }

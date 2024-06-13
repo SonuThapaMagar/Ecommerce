@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/adminDash.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bx-user'></i>
+            <span class="logo_name">Admin</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="adminDash.html" class="active">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="orders.html" class="active">
+                    <i class='bx bx-box'></i>
+                    <span class="links_name">Order Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="products.html" class="active">
+                    <i class='bx bx-package'></i>
+                    <span class="links_name">Product Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="adminUser.html" class="active">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Users</span>
+                </a>
+            </li>
+
+            <li class="log_out">
+                <a href="adminLogin.html">
+                    <i class='bx bx-log-out'></i>
+                    <span class="links_name">Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class='bx bx-menu sidebarBtn'></i>
+                <span class="dashboard">Product Details</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class='bx bx-search'></i>
+            </div>
+
+            <div class="add_product">
+                <a href="addProduct.html" style="text-decoration: none;">
+                    <i class='bx bx-add-to-queue'></i>
+                    <span class="">Add</span>
+
+                </a>
+            </div>
+        </nav>
+
+        <div class="home-content">
+            <div class="recent-sales-box">
+                <div class="dropdown">
+                    <button class="dropbtn">Filter BY</button>
+                    <div class="dropdown-content">
+                        <a href="#">Product Name</a>
+                        <a href="#">Product Category</a>
+                        <a href="#">Price</a>
+                    </div>
+                </div>
+                <table class="styled-table">
+                    <thead>
+                        <tr class="order_table">
+                            <th>SN</th>
+                            <th>Product Name</th>
+                            <th>Product Brand</th>
+                            <th>Product Category</th>
+                            <th>Product Description</th>
+                            <th>Product Image</th>
+                            <th>Availability</th>
+
+                            <th>Price</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Summer Sleeveless shirt</td>
+                            <td>Dom</td>
+                            <td>Clothes</td>
+                            <td>Comfortable Sleeveless shirt</td>
+                            <td>
+                                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQ8mFea_3FYMdb8wfpX_N_oFegHEmxvQKmKDHm55DNA&s"
+                                    target="_blank">View Image</a>
+                            </td>
+                            <td>In Stock</td>
+                            <td>Rs 680</td>
+                            <td>
+                                <a href="editProduct.html">
+                                    <button class="edit">Edit</button>
+                                </a>
+                            </td>
+                            <td>
+                                <button class="delete">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Summer Sleeveless shirt</td>
+                            <td>Dom</td>
+                            <td>Clothes</td>
+
+                            <td>Comfortable Sleeveless shirt</td>
+                            <td>
+                                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQ8mFea_3FYMdb8wfpX_N_oFegHEmxvQKmKDHm55DNA&s"
+                                    target="_blank">View Image</a>
+                            </td>
+                            <td>In Stock</td>
+                            <td>Rs 680</td>
+                            <td>
+                                <button class="edit">Edit</button>
+                            </td>
+                            <td>
+                                <button class="delete">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".sidebarBtn");
+        sidebarBtn.onclick = function () {
+            sidebar.classList.toggle("active");
+            if (sidebar.classList.contains("active")) {
+                sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+            } else
+                sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+        }
+    </script>
+
+</body>
+
+</html>
